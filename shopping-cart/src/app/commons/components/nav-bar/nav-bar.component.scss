@@ -1,0 +1,22 @@
+.w-full {
+  width: 100%;
+}
+.ml-20 {
+  margin-left: 20px;
+}
+.mr-20 {
+  margin-right: 20px;
+}
+.menu-end {
+  display: flex;
+  align-items: center;
+
+  &__info {
+    &--name {
+      font-weight: bold;
+    }
+    &--role {
+      font-size: 12px;
+    }
+  }
+}
